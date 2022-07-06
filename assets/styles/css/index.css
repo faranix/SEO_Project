@@ -70,6 +70,57 @@
         object-position: center;
         border-radius: 10px; }
 
+.footer {
+  padding: 5rem;
+  background: #810955; }
+  .footer-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.5rem;
+    font-weight: none;
+    font-style: none;
+    margin-bottom: 2rem;
+    color: #f7f3f3;
+    text-align: center; }
+  .footer form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: none;
+    width: 500px;
+    margin: 0rem auto;
+    gap: 1rem 0rem; }
+    .footer form div {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0rem 1rem; }
+      .footer form div input {
+        flex: 1; }
+    .footer form input, .footer form textarea {
+      padding: 0.8rem 1rem;
+      border: none;
+      border-radius: 5px;
+      background: #f7f3f3;
+      color: #100f0f; }
+      .footer form input:focus, .footer form textarea:focus {
+        outline: none; }
+      .footer form input::placeholder, .footer form textarea::placeholder {
+        color: #810955; }
+    .footer form textarea {
+      height: 100px;
+      resize: none; }
+    .footer form button {
+      padding: 1rem;
+      color: #100f0f;
+      background: #FFF9D7;
+      border: none;
+      cursor: pointer;
+      transition: all 250ms ease-in;
+      width: 40%;
+      margin: 0rem auto;
+      border-radius: 5px; }
+
 .accueil {
   padding: 5rem;
   background: #FFF9D7; }
