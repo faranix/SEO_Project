@@ -24,9 +24,10 @@ const fakeDb = [
         title: "HTML5",
         description: null,
         image: {
-            src: "",
-            alt: ""
-        }
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
     }
 ]
 
