@@ -28,7 +28,70 @@ const fakeDb = [
             alt: "Un test"
         },
         href: "#"
-    }
+    },
+    {
+        title: "CSS",
+        description: null,
+        image: {
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
+    },
+    {
+        title: "Javascript",
+        description: null,
+        image: {
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
+    },
+    {
+        title: "NodeJs",
+        description: null,
+        image: {
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
+    },
+    {
+        title: "MySql",
+        description: null,
+        image: {
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
+    },
+    {
+        title: "Scss",
+        description: null,
+        image: {
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
+    },
+    {
+        title: "ReactJs",
+        description: null,
+        image: {
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
+    },
+    {
+        title: "VueJs",
+        description: null,
+        image: {
+            src: "e-learning.jpg",
+            alt: "Un test"
+        },
+        href: "#"
+    },
 ]
 
 export { fakeUser, fakeDb }

@@ -79,14 +79,33 @@
     font-weight: none;
     font-style: none;
     margin-bottom: 2rem;
-    color: #f7f3f3;
-    text-align: center; }
+    color: #f7f3f3; }
+  .footer > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none; }
+  .footer-reseaux {
+    flex: 1;
+    color: #f7f3f3; }
+    .footer-reseaux-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: none;
+      align-items: none; }
+      .footer-reseaux-list li {
+        margin: 0rem 1rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        transition: all 250ms ease-in; }
+        .footer-reseaux-list li:hover {
+          transform: scale(1.1); }
   .footer form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: none;
     align-items: none;
-    width: 500px;
+    flex: 1;
     margin: 0rem auto;
     gap: 1rem 0rem; }
     .footer form div {

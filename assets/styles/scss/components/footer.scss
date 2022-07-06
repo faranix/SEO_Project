@@ -6,12 +6,35 @@
         @include font-dm(none, none, 2.5rem);
         margin-bottom: 2rem;
         color: $color-white;
-        text-align: center;
+    }
+
+    & > div {
+        @include flex(row, space-between, none);
+    }
+
+    &-reseaux {
+        flex: 1;
+        color: $color-white;
+
+        &-list {
+            @include flex(row, none, none);
+
+            li {
+                margin: 0rem 1rem;
+                font-size: 1.5rem;
+                cursor: pointer;
+                transition: all 250ms ease-in;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
+        }
     }
 
     form {
-        @include flex(column, center, none);
-        width: 500px;
+        @include flex(column, none, none);
+        flex: 1;
         margin: 0rem auto;
         gap: 1rem 0rem;
 
