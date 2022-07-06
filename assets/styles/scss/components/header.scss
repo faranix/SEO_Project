@@ -1,0 +1,33 @@
+.header {
+    @include flex(row);
+
+    &-left {
+        @include flex(column, center, center);
+        flex: 2;
+        background: $color-purple;
+    }
+
+    &-right {
+        flex: 3.5;
+        padding: 5rem;
+
+        &-title {
+            @include font-dm(none, none, 2.5rem);
+            margin-bottom: 2rem;
+            color: $color-dark-purple;
+        }
+
+        &-description {
+            margin-bottom: 2rem;
+        }
+
+        &-link {
+            @include button(.8rem 2rem, $color-white, $color-purple, none);
+            border-radius: 9999px;
+
+            &:hover {
+                background: $color-dark-purple;
+            }
+        }
+    }
+}

@@ -1,4 +1,42 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: none;
+  align-items: none; }
+  .header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 2;
+    background: #810955; }
+  .header-right {
+    flex: 3.5;
+    padding: 5rem; }
+    .header-right-title {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.5rem;
+      font-weight: none;
+      font-style: none;
+      margin-bottom: 2rem;
+      color: #610C63; }
+    .header-right-description {
+      margin-bottom: 2rem; }
+    .header-right-link {
+      padding: 0.8rem 2rem;
+      color: #f7f3f3;
+      background: #810955;
+      border: none;
+      transition: all 250ms ease-in;
+      border-radius: 9999px; }
+      .header-right-link:hover {
+        background: #610C63; }
+
 * {
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: none;
+  font-weight: none;
+  font-style: none;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }

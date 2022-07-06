@@ -1,0 +1,39 @@
+// === Mixin === // 
+
+// == Display == //
+@mixin flex($direction: row, $justify: none, $align: none) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin grid($col, $row) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}
+
+// == Fonts == //
+@mixin font-dm($bold: normal, $style: normal, $size: 1rem) {
+    font-family: 'DM Serif Display', serif;
+    font-size: $size;
+    font-weight: $bold;
+    font-style: $style;
+}
+
+@mixin font-quattro($bold: normal, $style: normal, $size: 1rem) {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: $size;
+    font-weight: $bold;
+    font-style: $style;
+}
+
+// == Components == //
+@mixin button($padding, $color, $background, $border) {
+    padding: $padding;
+    color: $color;
+    background: $background;
+    border: $border;
+    transition: all 250ms ease-in;
+}
