@@ -7,7 +7,7 @@ import Auth from "./class/Auth.js";
 const loc_array = window.location.pathname.split("/");
 
 switch(loc_array[loc_array.length - 1]) {
-    case "": case "/index.html": case "/":
+    case "": case "index.html": case "/":
         const cours = new Cours();
         cours.createHtmlCours(fakeDb);
         break;
@@ -15,3 +15,4 @@ switch(loc_array[loc_array.length - 1]) {
         break;
 }
 
+console.log(loc_array[loc_array.length - 1]);
