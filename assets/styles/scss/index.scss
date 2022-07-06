@@ -5,6 +5,9 @@
 // === Components === //
 @import "./components/header.scss";
 
+// === Views === //
+@import "./views/accueil.scss";
+
 // All // 
 * {
     @include font-quattro(none, none, none);
@@ -21,3 +24,4 @@ a {
 li {
     list-style: none;
 }
+

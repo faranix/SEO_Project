@@ -1,0 +1,12 @@
+.accueil {
+    padding: 5rem;
+    background: $color-hover;
+
+    &-cours {
+        @include flex(row, space-between, center);
+
+        &-right {
+            @include grid(repeat(1fr, 2), none);
+        }
+    }
+}

@@ -6,31 +6,82 @@
   .header-left {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 2;
+    justify-content: space-between;
+    align-items: none;
+    flex: 1;
     background: #810955; }
+    .header-left-button {
+      padding: 0.8rem 2rem;
+      color: #FFF9D7;
+      background: #810955;
+      border: none;
+      cursor: pointer;
+      transition: all 250ms ease-in;
+      font-family: 'DM Serif Display', serif;
+      font-size: 2rem;
+      font-weight: bold;
+      font-style: none;
+      flex: 1; }
+      .header-left-button:hover {
+        color: #810955;
+        background: #FFF9D7; }
   .header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: none;
     flex: 3.5;
-    padding: 5rem; }
+    padding: 3rem 5rem; }
+    .header-right > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: none;
+      flex: 2;
+      padding-right: 10rem; }
     .header-right-title {
       font-family: 'DM Serif Display', serif;
       font-size: 2.5rem;
       font-weight: none;
       font-style: none;
-      margin-bottom: 2rem;
       color: #610C63; }
     .header-right-description {
-      margin-bottom: 2rem; }
+      line-height: 30px;
+      text-align: justify; }
     .header-right-link {
       padding: 0.8rem 2rem;
-      color: #f7f3f3;
-      background: #810955;
-      border: none;
+      color: #610C63;
+      background: none;
+      border: 1px solid #610C63;
+      cursor: pointer;
       transition: all 250ms ease-in;
+      max-width: 300px;
+      text-align: center;
       border-radius: 9999px; }
       .header-right-link:hover {
+        color: #f7f3f3;
         background: #610C63; }
+    .header-right-img {
+      flex: 1; }
+      .header-right-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10px; }
+
+.accueil {
+  padding: 5rem;
+  background: #FFF9D7; }
+  .accueil-cours {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+    .accueil-cours-right {
+      display: grid;
+      grid-template-columns: repeat(1fr, 2);
+      grid-template-rows: none; }
 
 * {
   font-family: 'Quattrocento Sans', sans-serif;
