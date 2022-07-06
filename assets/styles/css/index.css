@@ -150,6 +150,7 @@
     align-items: center; }
     .accueil-cours-left {
       flex: 2;
+      padding-right: 10rem;
       text-align: center; }
       .accueil-cours-left-title {
         font-family: 'DM Serif Display', serif;
@@ -217,6 +218,8 @@
           transition: all 250ms ease; }
           .accueil-cours-right-cour-text-title {
             margin-bottom: 1rem; }
+          .accueil-cours-right-cour-text-description {
+            font-size: 0.8rem; }
         .accueil-cours-right-cour:hover > .accueil-cours-right-cour-text {
           opacity: 1; }
 
