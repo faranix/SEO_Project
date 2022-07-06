@@ -25,6 +25,55 @@
       .header-left-button:hover {
         color: #810955;
         background: #FFF9D7; }
+    .header-left-modal {
+      display: none;
+      position: fixed;
+      top: 0%;
+      left: 0%;
+      width: 100%;
+      height: 100%; }
+      .header-left-modal form {
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        gap: 1rem 0rem;
+        padding: 3rem;
+        background: #f7f3f3;
+        border-radius: 5px;
+        z-index: 5;
+        transform: translate(-50%, -50%); }
+        .header-left-modal form input {
+          width: 250px;
+          padding: 1rem;
+          border: 2px solid #610C63;
+          border-radius: 5px;
+          background: #f7f3f3; }
+          .header-left-modal form input:focus {
+            outline: none; }
+        .header-left-modal form button {
+          padding: 0.8rem 2rem;
+          color: none;
+          background: none;
+          border: 2px solid #610C63;
+          cursor: pointer;
+          transition: all 250ms ease-in; }
+          .header-left-modal form button:hover {
+            color: #f7f3f3;
+            background: #610C63; }
+      .header-left-modal-bg {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background: #100f0f;
+        opacity: .5;
+        z-index: 4;
+        cursor: pointer; }
+      .header-left-modal-active {
+        display: block; }
   .header-right {
     display: flex;
     flex-direction: row;

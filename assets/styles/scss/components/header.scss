@@ -16,6 +16,63 @@
                 background: $color-hover;
             }
         }
+
+        &-modal {
+            display: none;
+            position: fixed;
+            top: 0%;
+            left: 0%;
+            width: 100%;
+            height: 100%;
+
+            form {
+                @include flex(column, none, none);
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                gap: 1rem 0rem;
+                padding: 3rem;
+                background: $color-white;
+                border-radius: 5px;
+                z-index: 5;
+                transform: translate(-50%, -50%);
+
+                input {
+                    width: 250px;
+                    padding: 1rem;
+                    border: 2px solid $color-dark-purple;
+                    border-radius: 5px;
+                    background: $color-white;
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+                button {
+                    @include button(.8rem 2rem, none, none, 2px solid $color-dark-purple);
+
+                    &:hover {
+                        color: $color-white;
+                        background: $color-dark-purple;
+                    }
+                }
+            }
+            
+            &-bg {
+                display: block;
+                width: 100%;
+                height: 100%;
+                background: $color-black;
+                opacity: .5;
+                z-index: 4;
+                cursor: pointer;
+            }
+
+            &-active {
+                display: block;
+            }
+        }
     }
 
     &-right {
